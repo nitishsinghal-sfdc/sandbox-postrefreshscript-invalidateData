@@ -81,7 +81,7 @@ public class SandboxPostRefreshScriptBatch implements Database.Batchable<SObject
         // Then we run it again!
         if (getNextObject() != null) {
 
-            Database.executeBatch(new SandboxPostRefreshBatch(getNextObject()));
+            Database.executeBatch(new SandboxPostRefreshScriptBatch(getNextObject()));
         }
     }
 
