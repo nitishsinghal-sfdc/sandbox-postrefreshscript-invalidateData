@@ -3,7 +3,7 @@ Batch class to run post sandbox refresh which will invalidate all email and phon
 
 You can deploy to any Salesforce Environment with the button below:
 <br/>
-<a href="https://githubsfdeploy.herokuapp.com?owner=Nitish Singhal&repo=https://github.com/nitishsinghal-sfdc/sandbox-postrefreshscript-invalidateData&ref=master">
+<a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
